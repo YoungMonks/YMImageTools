@@ -7,14 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B75CF4CD1FBA8BE200A068F1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B75CF4CC1FBA8BE200A068F1 /* AppDelegate.m */; };
-		B75CF4D01FBA8BE200A068F1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B75CF4CF1FBA8BE200A068F1 /* ViewController.m */; };
-		B75CF4D31FBA8BE200A068F1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B75CF4D11FBA8BE200A068F1 /* Main.storyboard */; };
 		B75CF4D51FBA8BE200A068F1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B75CF4D41FBA8BE200A068F1 /* Assets.xcassets */; };
 		B75CF4D81FBA8BE200A068F1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B75CF4D61FBA8BE200A068F1 /* LaunchScreen.storyboard */; };
 		B75CF4DB1FBA8BE200A068F1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B75CF4DA1FBA8BE200A068F1 /* main.m */; };
 		B75CF4E51FBA8BE200A068F1 /* YMImageToolsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B75CF4E41FBA8BE200A068F1 /* YMImageToolsTests.m */; };
 		B75CF4F01FBA8BE200A068F1 /* YMImageToolsUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B75CF4EF1FBA8BE200A068F1 /* YMImageToolsUITests.m */; };
+		B7F0A54C1FBA8C4D000BA7AD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B7F0A53C1FBA8C4C000BA7AD /* AppDelegate.m */; };
+		B7F0A54D1FBA8C4D000BA7AD /* YMImagePickerController.m in Sources */ = {isa = PBXBuildFile; fileRef = B7F0A5401FBA8C4C000BA7AD /* YMImagePickerController.m */; };
+		B7F0A54E1FBA8C4D000BA7AD /* UIImage+Common.m in Sources */ = {isa = PBXBuildFile; fileRef = B7F0A5411FBA8C4C000BA7AD /* UIImage+Common.m */; };
+		B7F0A54F1FBA8C4D000BA7AD /* UIImage+YM.m in Sources */ = {isa = PBXBuildFile; fileRef = B7F0A5441FBA8C4C000BA7AD /* UIImage+YM.m */; };
+		B7F0A5501FBA8C4D000BA7AD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B7F0A5471FBA8C4D000BA7AD /* Main.storyboard */; };
+		B7F0A5511FBA8C4D000BA7AD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B7F0A5481FBA8C4D000BA7AD /* ViewController.m */; };
+		B7F0A5521FBA8C4D000BA7AD /* YMAvatarBrowser.m in Sources */ = {isa = PBXBuildFile; fileRef = B7F0A54A1FBA8C4D000BA7AD /* YMAvatarBrowser.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,11 +40,6 @@
 
 /* Begin PBXFileReference section */
 		B75CF4C81FBA8BE200A068F1 /* YMImageTools.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YMImageTools.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		B75CF4CB1FBA8BE200A068F1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		B75CF4CC1FBA8BE200A068F1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		B75CF4CE1FBA8BE200A068F1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		B75CF4CF1FBA8BE200A068F1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		B75CF4D21FBA8BE200A068F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B75CF4D41FBA8BE200A068F1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B75CF4D71FBA8BE200A068F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B75CF4D91FBA8BE200A068F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -51,6 +50,19 @@
 		B75CF4EB1FBA8BE200A068F1 /* YMImageToolsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YMImageToolsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B75CF4EF1FBA8BE200A068F1 /* YMImageToolsUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YMImageToolsUITests.m; sourceTree = "<group>"; };
 		B75CF4F11FBA8BE200A068F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B7F0A53C1FBA8C4C000BA7AD /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B7F0A53E1FBA8C4C000BA7AD /* YMImagePickerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMImagePickerController.h; sourceTree = "<group>"; };
+		B7F0A53F1FBA8C4C000BA7AD /* UIImage+Common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Common.h"; sourceTree = "<group>"; };
+		B7F0A5401FBA8C4C000BA7AD /* YMImagePickerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YMImagePickerController.m; sourceTree = "<group>"; };
+		B7F0A5411FBA8C4C000BA7AD /* UIImage+Common.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Common.m"; sourceTree = "<group>"; };
+		B7F0A5421FBA8C4C000BA7AD /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B7F0A5441FBA8C4C000BA7AD /* UIImage+YM.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+YM.m"; sourceTree = "<group>"; };
+		B7F0A5451FBA8C4C000BA7AD /* UIImage+YM.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+YM.h"; sourceTree = "<group>"; };
+		B7F0A5461FBA8C4D000BA7AD /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B7F0A5471FBA8C4D000BA7AD /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		B7F0A5481FBA8C4D000BA7AD /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B7F0A54A1FBA8C4D000BA7AD /* YMAvatarBrowser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YMAvatarBrowser.m; sourceTree = "<group>"; };
+		B7F0A54B1FBA8C4D000BA7AD /* YMAvatarBrowser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMAvatarBrowser.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,11 +113,14 @@
 		B75CF4CA1FBA8BE200A068F1 /* YMImageTools */ = {
 			isa = PBXGroup;
 			children = (
-				B75CF4CB1FBA8BE200A068F1 /* AppDelegate.h */,
-				B75CF4CC1FBA8BE200A068F1 /* AppDelegate.m */,
-				B75CF4CE1FBA8BE200A068F1 /* ViewController.h */,
-				B75CF4CF1FBA8BE200A068F1 /* ViewController.m */,
-				B75CF4D11FBA8BE200A068F1 /* Main.storyboard */,
+				B7F0A5461FBA8C4D000BA7AD /* AppDelegate.h */,
+				B7F0A53C1FBA8C4C000BA7AD /* AppDelegate.m */,
+				B7F0A5471FBA8C4D000BA7AD /* Main.storyboard */,
+				B7F0A5421FBA8C4C000BA7AD /* ViewController.h */,
+				B7F0A5481FBA8C4D000BA7AD /* ViewController.m */,
+				B7F0A5491FBA8C4D000BA7AD /* YMAvatarBrowser */,
+				B7F0A53D1FBA8C4C000BA7AD /* YMImagePicker */,
+				B7F0A5431FBA8C4C000BA7AD /* YMWaterMarkTool */,
 				B75CF4D41FBA8BE200A068F1 /* Assets.xcassets */,
 				B75CF4D61FBA8BE200A068F1 /* LaunchScreen.storyboard */,
 				B75CF4D91FBA8BE200A068F1 /* Info.plist */,
@@ -130,6 +145,35 @@
 				B75CF4F11FBA8BE200A068F1 /* Info.plist */,
 			);
 			path = YMImageToolsUITests;
+			sourceTree = "<group>";
+		};
+		B7F0A53D1FBA8C4C000BA7AD /* YMImagePicker */ = {
+			isa = PBXGroup;
+			children = (
+				B7F0A53E1FBA8C4C000BA7AD /* YMImagePickerController.h */,
+				B7F0A53F1FBA8C4C000BA7AD /* UIImage+Common.h */,
+				B7F0A5401FBA8C4C000BA7AD /* YMImagePickerController.m */,
+				B7F0A5411FBA8C4C000BA7AD /* UIImage+Common.m */,
+			);
+			path = YMImagePicker;
+			sourceTree = "<group>";
+		};
+		B7F0A5431FBA8C4C000BA7AD /* YMWaterMarkTool */ = {
+			isa = PBXGroup;
+			children = (
+				B7F0A5441FBA8C4C000BA7AD /* UIImage+YM.m */,
+				B7F0A5451FBA8C4C000BA7AD /* UIImage+YM.h */,
+			);
+			path = YMWaterMarkTool;
+			sourceTree = "<group>";
+		};
+		B7F0A5491FBA8C4D000BA7AD /* YMAvatarBrowser */ = {
+			isa = PBXGroup;
+			children = (
+				B7F0A54A1FBA8C4D000BA7AD /* YMAvatarBrowser.m */,
+				B7F0A54B1FBA8C4D000BA7AD /* YMAvatarBrowser.h */,
+			);
+			path = YMAvatarBrowser;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -238,9 +282,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B7F0A5501FBA8C4D000BA7AD /* Main.storyboard in Resources */,
 				B75CF4D81FBA8BE200A068F1 /* LaunchScreen.storyboard in Resources */,
 				B75CF4D51FBA8BE200A068F1 /* Assets.xcassets in Resources */,
-				B75CF4D31FBA8BE200A068F1 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,9 +309,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B75CF4D01FBA8BE200A068F1 /* ViewController.m in Sources */,
+				B7F0A5511FBA8C4D000BA7AD /* ViewController.m in Sources */,
+				B7F0A54E1FBA8C4D000BA7AD /* UIImage+Common.m in Sources */,
+				B7F0A54F1FBA8C4D000BA7AD /* UIImage+YM.m in Sources */,
+				B7F0A54C1FBA8C4D000BA7AD /* AppDelegate.m in Sources */,
+				B7F0A5521FBA8C4D000BA7AD /* YMAvatarBrowser.m in Sources */,
 				B75CF4DB1FBA8BE200A068F1 /* main.m in Sources */,
-				B75CF4CD1FBA8BE200A068F1 /* AppDelegate.m in Sources */,
+				B7F0A54D1FBA8C4D000BA7AD /* YMImagePickerController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -303,14 +351,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		B75CF4D11FBA8BE200A068F1 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				B75CF4D21FBA8BE200A068F1 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		B75CF4D61FBA8BE200A068F1 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
