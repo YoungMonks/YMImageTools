@@ -98,9 +98,7 @@
 }
 
 - (void)setItems:(NSArray *)items{
-    if (_isTimer) {
-        [self addNSTimer];
-    }
+    [self removeNSTimer];
     _items = items;
     if (_items.count<1||_items == nil) {
         self.myCollectionView.scrollEnabled = NO;
@@ -115,6 +113,10 @@
     }
     [self.myCollectionView reloadData];
     self.mypageControl.numberOfPages = _items.count;
+    
+    if (_isTimer) {
+        [self addNSTimer];
+    }
 }
 
 - (void)scrollViewDidScroll:(UIScrollView *)scrollView{

@@ -18,6 +18,7 @@
 @property (weak, nonatomic) IBOutlet UIImageView *bagImage;
 @property (weak, nonatomic) IBOutlet UIImageView *logoImage;
 
+@property (strong, nonatomic) UIImageView * banImage;
 @property (strong, nonatomic) NSMutableArray *images;
 @property (strong, nonatomic) NSMutableArray *imageViews;
 @property (strong, nonatomic) YMImagePickerController * imageController;
@@ -31,6 +32,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    _banImage = [[UIImageView alloc]init];
     self.bagImage.userInteractionEnabled = YES;
     UITapGestureRecognizer * singleTap = [[UITapGestureRecognizer alloc]initWithTarget:self action:@selector(upClick:)];
     [self.bagImage addGestureRecognizer:singleTap];
@@ -48,7 +50,7 @@
     [_images addObject:images.image];
     
     _bannerView = [[SQBannarView alloc]initWithFrame:CGRectMake((self.view.frame.size.width-150)/2, self.view.frame.size.height/2+100, 150, 150) viewSize:CGSizeMake(150,150)];
-    _bannerView.isTimer = NO;//定时器是否开启
+    _bannerView.isTimer = YES;//定时器是否开启
     _bannerView.items = _images;
     [self.view addSubview:_bannerView];
     [_bannerView imageViewClick:^(SQBannarView * _Nonnull barnerview, NSInteger index) {
@@ -72,13 +74,17 @@
 }
 //回调图片
 - (void)YMImagePickerData:(NSData *)imageData imageStr:(NSString *)imageStr image:(UIImage *)image{
+    _banImage.image = image;
     //添加背景图
     self.bagImage.image = image;
-    //添加logo
-    _logoImage.image = [UIImage waterMarkWithImageName:image imageStr:nil andMarkImageName:@"logo"];
+    
     //添加轮播图
+    [_imageViews addObject:_banImage];
     [_images addObject:image];
     _bannerView.items = _images;
+    
+    //添加logo
+    _logoImage.image = [UIImage waterMarkWithImageName:image imageStr:nil andMarkImageName:@"logo"];
     
 }
 - (void)didReceiveMemoryWarning {
