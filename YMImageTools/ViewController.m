@@ -23,7 +23,6 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
-    self.view.backgroundColor = [UIColor yellowColor];
     self.bagImage.userInteractionEnabled = YES;
     UITapGestureRecognizer * singleTap = [[UITapGestureRecognizer alloc]initWithTarget:self action:@selector(upClick:)];
     [self.bagImage addGestureRecognizer:singleTap];

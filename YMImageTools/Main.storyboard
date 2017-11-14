@@ -29,7 +29,7 @@
                                     <constraint firstAttribute="width" constant="100" id="wNT-8e-bD8"/>
                                 </constraints>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="cjz-8F-Nun">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="YoungMonk" translatesAutoresizingMaskIntoConstraints="NO" id="cjz-8F-Nun">
                                 <rect key="frame" x="137" y="116" width="100" height="100"/>
                                 <color key="backgroundColor" red="0.91764705879999997" green="0.43137254899999999" blue="0.027450980390000001" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
@@ -38,7 +38,7 @@
                                 </constraints>
                             </imageView>
                         </subviews>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="0.85576366759113276" green="0.95254922825903232" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="cjz-8F-Nun" firstAttribute="centerX" secondItem="ldL-c0-lyG" secondAttribute="centerX" id="Jkd-WP-K0j"/>
                             <constraint firstItem="ldL-c0-lyG" firstAttribute="top" secondItem="cjz-8F-Nun" secondAttribute="bottom" constant="67.5" id="VWN-lJ-sMG"/>
@@ -55,4 +55,7 @@
             </objects>
         </scene>
     </scenes>
+    <resources>
+        <image name="YoungMonk" width="580" height="585"/>
+    </resources>
 </document>
