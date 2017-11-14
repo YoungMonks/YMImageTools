@@ -19,6 +19,14 @@
 		B7F0A5501FBA8C4D000BA7AD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B7F0A5471FBA8C4D000BA7AD /* Main.storyboard */; };
 		B7F0A5511FBA8C4D000BA7AD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B7F0A5481FBA8C4D000BA7AD /* ViewController.m */; };
 		B7F0A5521FBA8C4D000BA7AD /* YMAvatarBrowser.m in Sources */ = {isa = PBXBuildFile; fileRef = B7F0A54A1FBA8C4D000BA7AD /* YMAvatarBrowser.m */; };
+		B7F0A5631FBAC48C000BA7AD /* ArcView.m in Sources */ = {isa = PBXBuildFile; fileRef = B7F0A5571FBAC48C000BA7AD /* ArcView.m */; };
+		B7F0A5641FBAC48C000BA7AD /* YMActionSheetView.m in Sources */ = {isa = PBXBuildFile; fileRef = B7F0A5581FBAC48C000BA7AD /* YMActionSheetView.m */; };
+		B7F0A5651FBAC48C000BA7AD /* YMPhotosView.m in Sources */ = {isa = PBXBuildFile; fileRef = B7F0A5591FBAC48C000BA7AD /* YMPhotosView.m */; };
+		B7F0A5661FBAC48C000BA7AD /* SQBannerCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B7F0A55C1FBAC48C000BA7AD /* SQBannerCollectionViewCell.m */; };
+		B7F0A5671FBAC48C000BA7AD /* SQBannarView.m in Sources */ = {isa = PBXBuildFile; fileRef = B7F0A55E1FBAC48C000BA7AD /* SQBannarView.m */; };
+		B7F0A5681FBAC48C000BA7AD /* SQBannerCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B7F0A5601FBAC48C000BA7AD /* SQBannerCollectionViewCell.xib */; };
+		B7F0A5691FBAC48C000BA7AD /* YMPhotosManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B7F0A5611FBAC48C000BA7AD /* YMPhotosManager.m */; };
+		CDF2D79E4793AE83DBA4C6A1 /* Pods_YMImageTools.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38B301026DB68F0001D0C641 /* Pods_YMImageTools.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,6 +47,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		38B301026DB68F0001D0C641 /* Pods_YMImageTools.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YMImageTools.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		539569E906F904AA74CACB7D /* Pods-YMImageTools.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YMImageTools.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YMImageTools/Pods-YMImageTools.debug.xcconfig"; sourceTree = "<group>"; };
 		B75CF4C81FBA8BE200A068F1 /* YMImageTools.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YMImageTools.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B75CF4D41FBA8BE200A068F1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B75CF4D71FBA8BE200A068F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -63,6 +73,20 @@
 		B7F0A5481FBA8C4D000BA7AD /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		B7F0A54A1FBA8C4D000BA7AD /* YMAvatarBrowser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YMAvatarBrowser.m; sourceTree = "<group>"; };
 		B7F0A54B1FBA8C4D000BA7AD /* YMAvatarBrowser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMAvatarBrowser.h; sourceTree = "<group>"; };
+		B7F0A5551FBAC48C000BA7AD /* ArcView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArcView.h; sourceTree = "<group>"; };
+		B7F0A5561FBAC48C000BA7AD /* YMActionSheetView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMActionSheetView.h; sourceTree = "<group>"; };
+		B7F0A5571FBAC48C000BA7AD /* ArcView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArcView.m; sourceTree = "<group>"; };
+		B7F0A5581FBAC48C000BA7AD /* YMActionSheetView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YMActionSheetView.m; sourceTree = "<group>"; };
+		B7F0A5591FBAC48C000BA7AD /* YMPhotosView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YMPhotosView.m; sourceTree = "<group>"; };
+		B7F0A55A1FBAC48C000BA7AD /* YMPhotosManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMPhotosManager.h; sourceTree = "<group>"; };
+		B7F0A55C1FBAC48C000BA7AD /* SQBannerCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SQBannerCollectionViewCell.m; sourceTree = "<group>"; };
+		B7F0A55D1FBAC48C000BA7AD /* SQBannarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SQBannarView.h; sourceTree = "<group>"; };
+		B7F0A55E1FBAC48C000BA7AD /* SQBannarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SQBannarView.m; sourceTree = "<group>"; };
+		B7F0A55F1FBAC48C000BA7AD /* SQBannerCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SQBannerCollectionViewCell.h; sourceTree = "<group>"; };
+		B7F0A5601FBAC48C000BA7AD /* SQBannerCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SQBannerCollectionViewCell.xib; sourceTree = "<group>"; };
+		B7F0A5611FBAC48C000BA7AD /* YMPhotosManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YMPhotosManager.m; sourceTree = "<group>"; };
+		B7F0A5621FBAC48C000BA7AD /* YMPhotosView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMPhotosView.h; sourceTree = "<group>"; };
+		D543396425987808379A8DB1 /* Pods-YMImageTools.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YMImageTools.release.xcconfig"; path = "Pods/Target Support Files/Pods-YMImageTools/Pods-YMImageTools.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +94,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CDF2D79E4793AE83DBA4C6A1 /* Pods_YMImageTools.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -90,6 +115,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		09628A825B353AD2FCB710C6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				539569E906F904AA74CACB7D /* Pods-YMImageTools.debug.xcconfig */,
+				D543396425987808379A8DB1 /* Pods-YMImageTools.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		B75CF4BF1FBA8BE200A068F1 = {
 			isa = PBXGroup;
 			children = (
@@ -97,6 +131,8 @@
 				B75CF4E31FBA8BE200A068F1 /* YMImageToolsTests */,
 				B75CF4EE1FBA8BE200A068F1 /* YMImageToolsUITests */,
 				B75CF4C91FBA8BE200A068F1 /* Products */,
+				09628A825B353AD2FCB710C6 /* Pods */,
+				DC0B322253060F65ADB4E1CD /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -113,15 +149,16 @@
 		B75CF4CA1FBA8BE200A068F1 /* YMImageTools */ = {
 			isa = PBXGroup;
 			children = (
+				B7F0A5531FBAC48C000BA7AD /* YMPhotoBrowser */,
 				B7F0A5461FBA8C4D000BA7AD /* AppDelegate.h */,
 				B7F0A53C1FBA8C4C000BA7AD /* AppDelegate.m */,
-				B7F0A5471FBA8C4D000BA7AD /* Main.storyboard */,
 				B7F0A5421FBA8C4C000BA7AD /* ViewController.h */,
 				B7F0A5481FBA8C4D000BA7AD /* ViewController.m */,
 				B7F0A5491FBA8C4D000BA7AD /* YMAvatarBrowser */,
 				B7F0A53D1FBA8C4C000BA7AD /* YMImagePicker */,
 				B7F0A5431FBA8C4C000BA7AD /* YMWaterMarkTool */,
 				B75CF4D41FBA8BE200A068F1 /* Assets.xcassets */,
+				B7F0A5471FBA8C4D000BA7AD /* Main.storyboard */,
 				B75CF4D61FBA8BE200A068F1 /* LaunchScreen.storyboard */,
 				B75CF4D91FBA8BE200A068F1 /* Info.plist */,
 				B75CF4DA1FBA8BE200A068F1 /* main.m */,
@@ -151,8 +188,8 @@
 			isa = PBXGroup;
 			children = (
 				B7F0A53E1FBA8C4C000BA7AD /* YMImagePickerController.h */,
-				B7F0A53F1FBA8C4C000BA7AD /* UIImage+Common.h */,
 				B7F0A5401FBA8C4C000BA7AD /* YMImagePickerController.m */,
+				B7F0A53F1FBA8C4C000BA7AD /* UIImage+Common.h */,
 				B7F0A5411FBA8C4C000BA7AD /* UIImage+Common.m */,
 			);
 			path = YMImagePicker;
@@ -161,8 +198,8 @@
 		B7F0A5431FBA8C4C000BA7AD /* YMWaterMarkTool */ = {
 			isa = PBXGroup;
 			children = (
-				B7F0A5441FBA8C4C000BA7AD /* UIImage+YM.m */,
 				B7F0A5451FBA8C4C000BA7AD /* UIImage+YM.h */,
+				B7F0A5441FBA8C4C000BA7AD /* UIImage+YM.m */,
 			);
 			path = YMWaterMarkTool;
 			sourceTree = "<group>";
@@ -176,6 +213,50 @@
 			path = YMAvatarBrowser;
 			sourceTree = "<group>";
 		};
+		B7F0A5531FBAC48C000BA7AD /* YMPhotoBrowser */ = {
+			isa = PBXGroup;
+			children = (
+				B7F0A5541FBAC48C000BA7AD /* YMActionSheetView */,
+				B7F0A5591FBAC48C000BA7AD /* YMPhotosView.m */,
+				B7F0A55A1FBAC48C000BA7AD /* YMPhotosManager.h */,
+				B7F0A55B1FBAC48C000BA7AD /* YMBannerView */,
+				B7F0A5611FBAC48C000BA7AD /* YMPhotosManager.m */,
+				B7F0A5621FBAC48C000BA7AD /* YMPhotosView.h */,
+			);
+			path = YMPhotoBrowser;
+			sourceTree = "<group>";
+		};
+		B7F0A5541FBAC48C000BA7AD /* YMActionSheetView */ = {
+			isa = PBXGroup;
+			children = (
+				B7F0A5551FBAC48C000BA7AD /* ArcView.h */,
+				B7F0A5561FBAC48C000BA7AD /* YMActionSheetView.h */,
+				B7F0A5571FBAC48C000BA7AD /* ArcView.m */,
+				B7F0A5581FBAC48C000BA7AD /* YMActionSheetView.m */,
+			);
+			path = YMActionSheetView;
+			sourceTree = "<group>";
+		};
+		B7F0A55B1FBAC48C000BA7AD /* YMBannerView */ = {
+			isa = PBXGroup;
+			children = (
+				B7F0A55C1FBAC48C000BA7AD /* SQBannerCollectionViewCell.m */,
+				B7F0A55D1FBAC48C000BA7AD /* SQBannarView.h */,
+				B7F0A55E1FBAC48C000BA7AD /* SQBannarView.m */,
+				B7F0A55F1FBAC48C000BA7AD /* SQBannerCollectionViewCell.h */,
+				B7F0A5601FBAC48C000BA7AD /* SQBannerCollectionViewCell.xib */,
+			);
+			path = YMBannerView;
+			sourceTree = "<group>";
+		};
+		DC0B322253060F65ADB4E1CD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				38B301026DB68F0001D0C641 /* Pods_YMImageTools.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -183,9 +264,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B75CF4F41FBA8BE200A068F1 /* Build configuration list for PBXNativeTarget "YMImageTools" */;
 			buildPhases = (
+				57C59D864FF3D543B5AB150E /* [CP] Check Pods Manifest.lock */,
 				B75CF4C41FBA8BE200A068F1 /* Sources */,
 				B75CF4C51FBA8BE200A068F1 /* Frameworks */,
 				B75CF4C61FBA8BE200A068F1 /* Resources */,
+				D239450BDC7B67EAD27E9EC0 /* [CP] Embed Pods Frameworks */,
+				A147DCED1E832AFE987C86C3 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -282,6 +366,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B7F0A5681FBAC48C000BA7AD /* SQBannerCollectionViewCell.xib in Resources */,
 				B7F0A5501FBA8C4D000BA7AD /* Main.storyboard in Resources */,
 				B75CF4D81FBA8BE200A068F1 /* LaunchScreen.storyboard in Resources */,
 				B75CF4D51FBA8BE200A068F1 /* Assets.xcassets in Resources */,
@@ -304,6 +389,70 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		57C59D864FF3D543B5AB150E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-YMImageTools-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A147DCED1E832AFE987C86C3 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YMImageTools/Pods-YMImageTools-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D239450BDC7B67EAD27E9EC0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-YMImageTools/Pods-YMImageTools-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
+				"${BUILT_PRODUCTS_DIR}/LCProgressHUD/LCProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/MBProgressHUD/MBProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/MJExtension/MJExtension.framework",
+				"${BUILT_PRODUCTS_DIR}/MJRefresh/MJRefresh.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/LCProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MBProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MJExtension.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MJRefresh.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YMImageTools/Pods-YMImageTools-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		B75CF4C41FBA8BE200A068F1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -311,9 +460,15 @@
 			files = (
 				B7F0A5511FBA8C4D000BA7AD /* ViewController.m in Sources */,
 				B7F0A54E1FBA8C4D000BA7AD /* UIImage+Common.m in Sources */,
+				B7F0A5691FBAC48C000BA7AD /* YMPhotosManager.m in Sources */,
+				B7F0A5671FBAC48C000BA7AD /* SQBannarView.m in Sources */,
 				B7F0A54F1FBA8C4D000BA7AD /* UIImage+YM.m in Sources */,
 				B7F0A54C1FBA8C4D000BA7AD /* AppDelegate.m in Sources */,
 				B7F0A5521FBA8C4D000BA7AD /* YMAvatarBrowser.m in Sources */,
+				B7F0A5631FBAC48C000BA7AD /* ArcView.m in Sources */,
+				B7F0A5641FBAC48C000BA7AD /* YMActionSheetView.m in Sources */,
+				B7F0A5661FBAC48C000BA7AD /* SQBannerCollectionViewCell.m in Sources */,
+				B7F0A5651FBAC48C000BA7AD /* YMPhotosView.m in Sources */,
 				B75CF4DB1FBA8BE200A068F1 /* main.m in Sources */,
 				B7F0A54D1FBA8C4D000BA7AD /* YMImagePickerController.m in Sources */,
 			);
@@ -468,6 +623,7 @@
 		};
 		B75CF4F51FBA8BE200A068F1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 539569E906F904AA74CACB7D /* Pods-YMImageTools.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -481,6 +637,7 @@
 		};
 		B75CF4F61FBA8BE200A068F1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D543396425987808379A8DB1 /* Pods-YMImageTools.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
